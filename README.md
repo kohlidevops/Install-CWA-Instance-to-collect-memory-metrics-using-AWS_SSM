@@ -53,6 +53,8 @@ On the Command section select the “AWS-ConfigureAWSPackage” to install the C
 
 ![image](https://github.com/kohlidevops/Install-CWA-Instance-to-collect-memory-metrics-using-AWS_SSM/assets/100069489/600d74bd-0568-4c7f-9c27-bfa3ed8dbc6d)
 
+**In the Name box, enter AmazonCloudWatchAgent**
+
 Now, Select the Target scroll down to the Target selection and "Choose instances manually" option, and leave everything default.
 
 ![image](https://github.com/kohlidevops/Install-CWA-Instance-to-collect-memory-metrics-using-AWS_SSM/assets/100069489/c7183e25-2329-4619-9d49-0853eb786f6d)
