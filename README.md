@@ -83,42 +83,24 @@ Give a unique name "AmazonCloudWatch-MemoryConfig" and add a description select 
 Just add the below Json file to the Value section.
 
      {
-   
-      "agent": {
-      
-        "metrics_collection_interval": 30,
-        
-        "logfile": "/opt/aws/amazon-cloudwatch-agent/logs/amazon-cloudwatch-agent.log"
-        
-      },
-      
-    "metrics": {
-
+         "agent": {
+           "metrics_collection_interval": 30,
+           "logfile": "/opt/aws/amazon-cloudwatch-agent/logs/amazon-cloudwatch-agent.log"
+         },
+       "metrics": {
     "metrics_collected": {
-    
-      "mem": {
-      
-        "measurement": [
-        
-          {"name": "used", "rename": "MemoryUsed"},
-          
-          {"name": "mem_available", "rename": "MemoryAvailable"}
-          
-        ]
-        
-        }
-        
-      },
-      
-    "append_dimensions": {
-    
-      "InstanceId": "${aws:InstanceId}"
-      
-    }
-    
-    }
-  
-    }
+       "mem": {
+         "measurement": [
+           {"name": "used", "rename": "MemoryUsed"},
+           {"name": "mem_available", "rename": "MemoryAvailable"}
+         ]
+         }
+        },
+      "append_dimensions": {
+        "InstanceId": "${aws:InstanceId}"
+       }
+       }
+      }
 
 Now, click on Create parameter.
 
