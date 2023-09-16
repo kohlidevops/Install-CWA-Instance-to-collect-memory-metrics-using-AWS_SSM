@@ -1,0 +1,1 @@
+# Install-CWA-Instance-to-collect-memory-metrics-using-AWS_SSM
