@@ -4,7 +4,7 @@
 
 AWS CloudWatch does not collect memory metrics from EC2 Instances by default. To obtain the memory utilisation, we first install the CloudWatch Agent on an EC2 instance. In this section, we will install the AWS CloudWatch agent using AWS System Manager and gather memory metrics in the AWS CloudWatch dashboard. We will then build an alarm in AWS CloudWatch that will send an alert email message when the memory goes skyrockets.
 
-<img width="477" alt="image" src="https://github.com/kohlidevops/Install-CWA-Instance-to-collect-memory-metrics-using-AWS_SSM/assets/100069489/8b5e3eb4-2d81-4cb7-80e8-f345e82ffff1">
+                     <img width="477" alt="image" src="https://github.com/kohlidevops/Install-CWA-Instance-to-collect-memory-metrics-using-AWS_SSM/assets/100069489/8b5e3eb4-2d81-4cb7-80e8-f345e82ffff1">
 
 I assuming that you have launched Amazon Linux EC2 instance and its up and running state.
 
